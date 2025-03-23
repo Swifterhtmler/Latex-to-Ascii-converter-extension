@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "asciimath-to-latex": "^0.5.1"
+  }  
+}

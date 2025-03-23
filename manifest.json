@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Clipboard Reader",
+  "version": "1.0",
+  "permissions": ["clipboardRead", "clipboardWrite", "scripting", "activeTab",
+  "tabs",
+  "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Read Clipboard"
+  },
+  "commands": {
+    "openPopup": {
+      "suggested_key": {
+        "default": "Alt+U",
+        "mac": "Command+U"
+      },
+      "description": "Opens Popup"
+    }
+  },
+  "background": {
+    "scripts": ["backgrounding.js"],
+    "persistent": false
+  }
+}
