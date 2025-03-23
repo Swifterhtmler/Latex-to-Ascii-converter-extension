@@ -4,9 +4,6 @@
 Takes in AMS Latex code and formats it to Ascii for easier copy and paste functionality.
 
 
-
-
-
 ## FAQ
 
 #### What latex formats are supported
@@ -20,7 +17,7 @@ No Latex to Ascii converter works offline without any api access
 
 ## Features
 
-- Lightweigh extension
+- Lightweigh browser extension
 - Quick startup
 - works offline
 - supports newest versions of chrome
