@@ -47,6 +47,4 @@ or going to releases > donwloading version V1.0 or whats the newest version.
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Swifterhtmler/Latex-to-Ascii-converter-extension/tree/main?tab=MIT-1-ov-file#)
