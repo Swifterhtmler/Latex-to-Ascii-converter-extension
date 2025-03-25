@@ -255,9 +255,9 @@ function latexToAscii(latex) {
         case "Omega": return "Ω";
         
         // Operators and symbols
-        case "cdot": return "·";
-        case "times": return "×";
-        case "div": return "÷";
+        case "cdot": return "*";
+        case "times": return "*";
+        case "div": return ":";
         case "pm": return "±";
         case "mp": return "∓";
         case "leq": return "≤";
@@ -286,14 +286,14 @@ function latexToAscii(latex) {
         case "tan": return "tan";
         
         // SI Units
-        case "joule": case "J": return "J";
-        case "watt": case "W": return "W";
-        case "newton": case "N": return "N";
-        case "ampere": case "A": return "A";
-        case "volt": case "V": return "V";
+        case "joule": case "J": return "_J";
+        case "watt": case "W": return "_W";
+        case "newton": case "N": return "_N";
+        case "ampere": case "A": return "_A";
+        case "volt": case "V": return "_V";
         case "ohm": return "Ω";
-        case "farad": case "F": return "F";
-        case "henry": case "H": return "H";
+        case "farad": case "F": return "_F";
+        case "henry": case "H": return "_H";
         case "hertz": case "Hz": return "Hz";
         case "coulomb": case "C": return "C";
         case "tesla": case "T": return "T";
@@ -306,7 +306,7 @@ function latexToAscii(latex) {
         case "katal": case "kat": return "kat";
         
         // Non-SI units
-        case "electronvolt": case "eV": return "eV";
+        case "electronvolt": case "eV": return "_eV";
         case "pascal": case "Pa": return "Pa";
         case "bar": return "bar";
         case "atm": return "atm";
@@ -316,19 +316,19 @@ function latexToAscii(latex) {
         case "mmHg": return "mmHg";
         
         // Prefixes for units
-        case "giga": case "G": return "G";
-        case "mega": case "M": return "M";
-        case "kilo": case "k": return "k";
-        case "hecto": case "h": return "h";
-        case "deca": case "da": return "da";
-        case "deci": case "d": return "d";
-        case "centi": case "c": return "c";
-        case "milli": case "m": return "m";
-        case "micro": case "μ": return "μ";
-        case "nano": case "n": return "n";
-        case "pico": case "p": return "p";
-        case "femto": case "f": return "f";
-        case "atto": case "a": return "a";
+        case "giga": case "G": return "_G";
+        case "mega": case "M": return "_M";
+        case "kilo": case "k": return "_k";
+        case "hecto": case "h": return "_h";
+        case "deca": case "da": return "_da";
+        case "deci": case "d": return "d_";
+        case "centi": case "c": return "_c";
+        case "milli": case "m": return "_m";
+        case "micro": case "μ": return "_μ";
+        case "nano": case "n": return "_n";
+        case "pico": case "p": return "_p";
+        case "femto": case "f": return "_f";
+        case "atto": case "a": return "_a";
         
         // Space commands - improved space handling
         case " ": return " ";
